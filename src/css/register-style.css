@@ -4,7 +4,7 @@
     background-size: cover; /* Adjust as needed */
     background-position: center center; /* Adjust as needed */
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 70vh;
 }
 
 
@@ -15,7 +15,7 @@
     overflow: hidden;
     /* text-align: center; */
     border-radius: 25px;
-    margin: 10%;
+    margin: 5%;
     padding: 2%;
     width: 30%;
     height: 30vh;
