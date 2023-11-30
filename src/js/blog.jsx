@@ -1,13 +1,15 @@
+
+import React from 'react';
 import '../css/blog-style.css'
 
 
-function blog() {
+const Blog =()=> {
     return ( 
 
-        <div className="blog-main">
+        <div className="blog-main" id='blog-main'>
             Blog Div
         </div>
      );
 }
 
-export default blog;
+export default Blog;

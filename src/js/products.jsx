@@ -3,7 +3,7 @@ import '../css/products-style.css'
 function products() {
     return ( 
 
-        <div className='product-main'>
+        <div className='product-main' id='product-main'>
             Product DIV
         </div>
      );

@@ -2,7 +2,7 @@ import '../css/register-style.css'
 
 function register() {
     return ( 
-        <div className="register-main">
+        <div className="register-main" id='register-main'>
 
 
             <div className='information-try'>
