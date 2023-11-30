@@ -15,9 +15,10 @@ const  Headers = () => {
 
     const closeMenu = () => setClick(false)
     return ( 
-        <nav className='header-main'>
 
-            
+
+        <div className='header-main'>
+        <nav className='nav-main'>
             <img src={logo} alt=""  className='logo' />
 
 
@@ -46,6 +47,7 @@ const  Headers = () => {
                 </div>
             </div>
         </nav>
+        </div>
      );
 }
 export default Headers;

@@ -1,12 +1,21 @@
 .header-main{
     position: fixed;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    padding-top: 3%;
-    padding-bottom: 2%;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
     background-color: white;
+    height: 10vh;
+    width: 100%;
+   
+}
+
+
+.nav-main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   max-width: 1200px;
 }
 
 .logo{
