@@ -4,8 +4,11 @@ function register() {
     return ( 
         <div className="register-main" id='register-main'>
 
+        
+            <div className='container'>
 
-            <div className='information-try'>
+
+            <p className='information-try'>
             As pessoas com perda de audição estão no centro do que fazemos. Em um mundo sempre
             mais inteligente, pensamos grande e desafiamos a norma para que possamos transformar
             vidas através do poder do som.Uma vida que permite que você ouça mais, 
@@ -16,7 +19,7 @@ function register() {
             dos usuários de aparelhos auditivos. Ao combinar nossa experiência nos pilares da tecnologia 
             Smart Hearing, as pessoas com perda de audição podem experimentar, conectar-se e se comunicar
              melhor do que nunca.
-            </div>
+            </p>
 
             <div className='register-form'>  
 
@@ -47,11 +50,10 @@ function register() {
             </div>
 
             </form>
-
-
-            
-
             </div>
+            </div>
+
+           
 
         
         </div>
