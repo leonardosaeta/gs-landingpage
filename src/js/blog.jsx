@@ -5,7 +5,7 @@ function blog() {
     return ( 
 
         <div className="blog-main">
-
+            Blog Div
         </div>
      );
 }

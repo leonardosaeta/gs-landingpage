@@ -4,7 +4,7 @@ function products() {
     return ( 
 
         <div className='product-main'>
-            
+            Product DIV
         </div>
      );
 }
