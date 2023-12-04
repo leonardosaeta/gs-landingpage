@@ -1,3 +1,37 @@
 .product-main{
-    height: 70vh;
+    display: flex;
+    justify-content: center;
+    min-height: 700px;
+    min-width: 1000px;
+    max-width: 1200px;
 }
+
+
+.products{
+    width: 50%;
+}
+
+.products1{
+    display: flex;
+    margin: 5%;
+}
+
+.products2{
+    display: flex;
+    margin: 5%;
+}
+
+.productContainer{
+    color: white;
+    background-color: #1F2821;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2%;
+}
+
+
+.products-text{
+    width: 50%;
+    background-color: bisque;
+}
+
