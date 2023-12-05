@@ -1,8 +1,60 @@
 .footer-main{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2028;
     color: white;
     width: 100%;
     min-width: 1000px;
     height: 30vh;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.footer-logo{
+    width: 70%;
+}
+
+.social{
+    justify-content: center;
+}
+
+.medialogo{
+    width: 20%;
+    padding: 5%;
+}
+
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeicon{
+    width: 20px;
+    margin-right: 2%;
+}
+
+.linkmaps{
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.addresses{
+    display: flex;
+    width: 70%;
+    margin-left: 10%;
+}
+
+.all-addresses{
+    margin: 10%;
+}
+
+.cityname{
+    margin-bottom: 2%;
 }
