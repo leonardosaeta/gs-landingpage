@@ -1,15 +1,22 @@
 .product-main{
     display: flex;
     justify-content: center;
-    min-height: 700px;
+    width: 100%;
     min-width: 1000px;
+
+}
+
+
+.testingcentering{
+    display: flex;
     max-width: 1200px;
 }
 
 
 .products{
-    width: 50%;
+    width: 100%;
 }
+
 
 .products1{
     display: flex;
@@ -31,7 +38,5 @@
 
 
 .products-text{
-    width: 50%;
-    background-color: bisque;
 }
 

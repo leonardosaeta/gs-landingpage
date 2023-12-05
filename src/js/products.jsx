@@ -8,6 +8,13 @@ function products() {
     return ( 
 
         <div className='product-main' id='product-main'>
+
+
+        <div className='testingcentering'>
+
+
+
+
         <div className='products'>
 
             <div className='products1'>
@@ -54,6 +61,7 @@ function products() {
         </div>
 
 
+        </div>
             
         </div>
      );

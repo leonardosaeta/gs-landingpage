@@ -6,7 +6,6 @@
     background-color: white;
     height: 100px;
     width: 100%;
-   
 }
 
 
@@ -20,8 +19,7 @@
 .logo{
     width: 8%;
     margin-right: 5%;
-    max-width: 1200px;
-
+    max-width: 100px;
 }
 
 #link{

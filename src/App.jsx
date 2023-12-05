@@ -1,5 +1,5 @@
 import './App.css';
-import Headers from './js/Headers';
+import Headers from './js/headers';
 import Register from './js/register'
 import Products from './js/products'
 import Blog from './js/blog'
