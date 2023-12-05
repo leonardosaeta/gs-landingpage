@@ -38,12 +38,12 @@ const  Headers = () => {
             <div className='contact'>
                 <div>
                     <img className='phoneIMG' src={phone} alt="" />
-                    (11) 3428-4706 
+                    <a className='phonenumber' href="tel:(11)3428-4706">(11) 3428-4706</a>
                 </div>
 
                 <div>
                     <img className='phoneWhats' src={whats} alt="" />
-                    (11) 94576-8268
+                    <a className='phonenumber' href="https://api.whatsapp.com/send?phone=5511945768268" target='_blank'>(11) 94576-8268</a>
                 </div>
             </div>
         </nav>

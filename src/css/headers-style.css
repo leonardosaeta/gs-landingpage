@@ -40,12 +40,18 @@
 .phoneIMG{
     width: 15%;
     margin-right:5%;
+    
 }
 
 .phoneWhats{
     width: 15%;
-    margin-right:5%;
-    
+    margin-right:5%;    
+}
+
+.phonenumber{
+    text-decoration: none;
+    color: black;
+
 }
 
 #link:hover{
