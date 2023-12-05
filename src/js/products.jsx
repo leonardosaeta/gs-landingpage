@@ -54,10 +54,8 @@ function products() {
         </div>
 
         <div className='products-text'>
-
-
             <h1>Conexão inigualável</h1>
-            <h5>Transforme sua experiência auditiva mais enriquecedora com os acessórios Wireless. Com os acessórios de conectividade faça de seus aparelhos auditivos fones de ouvido.</h5>
+            <p>Transforme sua experiência auditiva mais enriquecedora com os acessórios Wireless. Com os acessórios de conectividade faça de seus aparelhos auditivos fones de ouvido.</p>
         </div>
 
 
