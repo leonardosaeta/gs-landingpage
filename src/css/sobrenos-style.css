@@ -1,5 +1,49 @@
 .sobrenos-main{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 70vh;
+    min-width: 1000px;
+    height: 50vh;
 }
+
+
+.people-fig{
+    width: 50%;
+    height: 50%;
+    margin-right : 5%;
+}
+
+
+.sobrenos-container{
+    display: flex;
+    max-width: 1200px;
+}
+
+.information h3{
+    text-align: center;    
+}
+
+.button-div{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.register-button{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+
+.register-button:hover{
+    background-color: #2980b9;
+}
+
