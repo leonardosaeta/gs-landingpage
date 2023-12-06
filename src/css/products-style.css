@@ -2,16 +2,13 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    min-width: 1000px;
-
 }
 
 
 .testingcentering{
     display: flex;
-    max-width: 1200px;
+    max-width: 1240px;
 }
-
 
 .products{
     width: 100%;
@@ -74,3 +71,8 @@
 
 }
 
+@media screen and (max-width:940px){
+    .testingcentering{
+        flex-direction: column;
+    }
+}

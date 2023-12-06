@@ -70,10 +70,6 @@ function footer() {
                         </div>
 
                 </div>
-
-
-
-
             </div>
         </div>
      );
