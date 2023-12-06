@@ -23,18 +23,16 @@ const  Headers = () => {
 
 
             <div className='hamburger' onClick={handleClick}>
-                    {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
-                        : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
+                    {click ? (<FaTimes size={30} style={{ color: '#44D7E9' }} />)
+                        : (<FaBars size={30} style={{ color: '#44D7E9' }} />)}
 
-            </div>
-
-
+            </div>  
+            <div className={click ? "nav-menu active" : "nav-menu"}>
                 <Link id='link'  to="register-main" spy={true} smooth={true} offset={-100} duration={500}  onClick={closeMenu}>Consultas</Link>
                 <Link id='link' to="product-main" spy={true} smooth={true} offset={-200} duration={500}  onClick={closeMenu}>Produtos</Link>
                 <Link id='link' to="blog-main" spy={true} smooth={true} offset={-200} duration={500}  onClick={closeMenu}>Blog</Link>
                 <Link id='link' to="sobrenos-main" spy={true} smooth={true} offset={-200} duration={500}  onClick={closeMenu}>Sobre nos</Link>   
-
-
+            </div>              
             <div className='contact'>
                 <div>
                     <img className='phoneIMG' src={phone} alt="" />
