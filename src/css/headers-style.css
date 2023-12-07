@@ -75,6 +75,13 @@
 }
 
 
+.whitelogo-header{
+    display: none;
+    max-width: 100px;
+}
+
+
+
 @media screen and (max-width:940px){
     .header-main{
         background-color: none;
@@ -83,7 +90,9 @@
     }
 
     .nav-main{
-        justify-content: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: space-between;
     }
     
     
@@ -122,5 +131,9 @@
     }
 
 
+    .whitelogo-header{
+        display: block;
+        max-width: 150px;
+    }
     
 }

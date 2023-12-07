@@ -1,4 +1,5 @@
 import logo from '../Images/logos GN/Logo 1.png'; // import of logo 1
+import whitelogo from '../Images/logos GN/logo-branco.webp'
 import phone from '../Images/Icons/icons8-phone-50.png';
 import whats from '../Images/Icons/whats.png'
 import "../css/headers-style.css"
@@ -44,6 +45,9 @@ const  Headers = () => {
                     <a className='phonenumber' href="https://api.whatsapp.com/send?phone=5511945768268" target='_blank'>(11) 94576-8268</a>
                 </div>
             </div>
+
+
+            <img className='whitelogo-header' src={whitelogo} alt="" />
         </nav>
         </div>
      );
