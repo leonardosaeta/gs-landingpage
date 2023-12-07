@@ -5,8 +5,8 @@
     width: 100%;
     height: 50vh;
     overflow: hidden;
+    min-width: 320px  
 }
-
 
 .people-fig{
     width: 50%;
