@@ -60,7 +60,7 @@
     margin-bottom: 2%;
 }
 
-@media screen and (max-width:940px){
+@media screen and (max-width:600px){
     .footer-main{
         height: 100%;
     }

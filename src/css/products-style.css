@@ -3,9 +3,7 @@
     justify-content: center;
     width: 100%;
     min-width: 320px  
-
 }
-
 
 .testingcentering{
     display: flex;
@@ -32,12 +30,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center ;
-    color: white;
-    background-color: #495E57;
+    color: black;
+    background-color: whitesmoke;
     border-radius: 15px;
     padding: 3%;
     margin: 2%;
     transition: background-color 0.7s ease; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 
@@ -69,7 +69,8 @@
   }
 
 .productContainer:hover{
-   background-color: #45474B;
+   background-color: #44D7E9;
+   /* color: white; */
 
 }
 
