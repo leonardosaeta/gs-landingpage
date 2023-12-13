@@ -1,13 +1,14 @@
 .register-main{
     display: flex;
-    background-image: url('../Images/people/pessoas\ 2.png');
+    background-image: url('../Images/people/newbackground.jpeg');
     background-size: cover; /* Adjust as needed */
     background-position: center center; /* Adjust as needed */
     background-repeat: no-repeat;
     padding-top: 10%;
     height: 50vh;
     justify-content: center;   
-    min-width: 320px  
+    min-width: 320px;
+    min-height: 700px;
 }
 
 .container{
@@ -19,26 +20,40 @@
 }
 
 .information-try{
+    overflow: hidden;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 5px;
     margin-right: 5%;
     padding: 2%;
     width: 40%;
-    height: 30vh;
-    background-color: white;
-    min-height: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 300px;
+}
+
+.first-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.userIMG{
+  max-width: 65px;
+  margin-top:-40%;
+  margin-bottom: 10%;
 }
 
 .register-form{
     background-color: #1F2028;
     color: white;
     text-align: left;
-    overflow: hidden;
-    border-radius: 25px;
+    /* overflow: hidden; */
+    border-radius: 5px;
     width: 20%;
     height: 30vh;
     padding: 5%;
@@ -103,6 +118,18 @@ input {
       max-width: none;
       min-height: none;
       min-width: none;
+    }
+
+    .first-info{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .userIMG{
+      margin-top:-15%;
+      margin-bottom: 5%;
     }
     
     .information-try{

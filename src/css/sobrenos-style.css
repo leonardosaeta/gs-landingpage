@@ -17,6 +17,7 @@
 .sobrenos-container{
     display: flex;
     max-width: 1200px;
+    height: 100%;
 }
 
 .information h3{

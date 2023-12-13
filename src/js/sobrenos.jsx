@@ -22,7 +22,6 @@ const Sobrenos = ()=> {
 
 
                     <p className='information'>
-
                         <h2>Experimente ouvir, conectar-se e se comunicar melhor do que nunca</h2>
                         As pessoas com perda de audição estão no centro do que fazemos. Em um mundo sempre mais inteligente, 
                         pensamos grande e desafiamos a norma para que possamos transformar vidas através do poder do som. Uma vida que permite que você ouça mais, 
